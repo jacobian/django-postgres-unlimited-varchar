@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-postgres-unlimited-varchar"
-version = "1.1.0"
+version = "1.1.1"
 description = "A tiny app adding support unlimited varchar fields in Django/Postgres."
 authors = ["Jacob Kaplan-Moss <jacob@jacobian.org>"]
 readme = "README.rst"
