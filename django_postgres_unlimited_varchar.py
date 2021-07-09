@@ -5,8 +5,9 @@ from django.db import models
 
 class UnlimitedCharField(models.CharField):
     def __init__(self, *args, **kwargs):
-        # update for Django >= 3.2
+        # for Django >= 3.2
         self.db_collation = kwargs.pop("db_collation", None)
+
         # not a typo: we want to skip CharField.__init__ because that adds the max_length validator
         super(models.CharField, self).__init__(*args, **kwargs)
 
