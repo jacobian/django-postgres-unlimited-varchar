@@ -6,7 +6,7 @@ authors = ["Jacob Kaplan-Moss <jacob@jacobian.org>"]
 readme = "README.rst"
 
 [tool.poetry.dependencies]
-django = "^2 || ^3"
+django = "^2 || ^3 || ^4"
 python = "^3.6"
 
 [build-system]
